@@ -7,6 +7,7 @@
 - The variables which provided a non-random amount of variance to the MPG values in the dataset are:
   - Vehicle Length: p-value 2.60e-12
   - Ground Clearance: p-value 5.21e-08
+  ![Summary of Linear Regression Highlights](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/LinearRegressionSummary%20-%20Highlights.JPG)
 
 - The slope of the linear model is considered to not be zero. This is due to the p-values of Vehicle Length and Ground Clearance each being much smaller than our standard significance level of 0.05%
 
