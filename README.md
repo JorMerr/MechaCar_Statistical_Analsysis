@@ -24,14 +24,14 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![Lot Summary Highlight of Lot3 Variance](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/lot_summary-Highlights.jpg)
 
 ## T-Tests on Suspension Coils
-![T-Test across all manufacturing lots]()
+![T-Test across all manufacturing lots](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/t.test-total.JPG)
 The T-Test analyzing the PSI across all lots indicates that there is statistical difference from the population mean of 1,500 pounds per square inch. Analysis for each individual manufacturing lot to determine the highest level of statistical difference follows below.
 
-![T-Test for Lot1]()
+![T-Test for Lot1](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/t.test-Lot1.JPG)
 The T-Test for Lot1 indicates a p-value of 0.066, nearly 0.07. While substantially lower than the p-value of 1 across each of the manufacturing lots, it does indicate that there is some variance in the recorded values for pounds per square inch in vehicles manufactured at Lot1. The Lot1 mean of PSI is calculated at 1,500.00.
 
-![T-Test for Lot2]()
+![T-Test for Lot2](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/t.test-Lot2.JPG)
 The T-Test for Lot2 indicates a p-value of 0.060. This manufacturing lot shows the lowest p-value when compared with each of the other manufacturing lots. The p-value does indicate there is some variance in the recorded values for pounds per square inch in vehicles manufactured at Lot2. The Lot2 mean of PSI is calculated at 1,500.20.
 
-![T-Test for Lot3]()
+![T-Test for Lot3](https://github.com/JorMerr/MechaCar_Statistical_Analsysis/blob/main/img/t.test-Lot3.JPG)
 The T-Test for Lot3 indicates a p-value of 0.1818, the highest p-value across each of the manufacturing lots. This p-value appears to show that there is statistically significant differences in the recorded values of pounds per square inch in vehicles manufactured at Lot3. The Lot3 mean of PSI is calculated at 1,496.14
