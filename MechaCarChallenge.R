@@ -20,3 +20,20 @@ total_summary <- suspensionCoil %>% summarize(Mean=mean(PSI),Median=median(PSI),
 
 # create a lot_summary dataframe to group each manufacturing lot by mean, median, variance, and standard deviation of the PSI column
 lot_summary <- suspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI),SD=sd(PSI))
+
+
+#Deliverable 3
+# use t.test function to determine if PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+t.test(suspensionCoil$PSI,mu=mean(suspensionCoil$PSI))
+# use t.test for Lot1
+Lot1 <- subset(suspensionCoil,Manufacturing_Lot=="Lot1",select = "PSI")
+t.test(Lot1,suspensionCoil$PSI)
+# use t.test for Lot2
+Lot2 <- subset(suspensionCoil,Manufacturing_Lot=="Lot2",select = "PSI")
+t.test(Lot2,suspensionCoil$PSI)
+# use t.test for Lot3
+Lot3 <- subset(suspensionCoil,Manufacturing_Lot=="Lot3",select = "PSI")
+t.test(Lot3,suspensionCoil$PSI)
+
+
+# Deliverable 4
